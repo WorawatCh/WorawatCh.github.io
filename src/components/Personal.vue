@@ -4,6 +4,13 @@ import Carousel from 'primevue/carousel';
 import Card from 'primevue/card';
 import Button from 'primevue/button';
 import Divider from 'primevue/divider';
+
+const age = ref()
+
+function getAge(){
+    age.value = new Date()
+    return age.value.getFullYear() - 1998
+}
 </script>
 
 <template>
@@ -21,6 +28,12 @@ import Divider from 'primevue/divider';
                         <div class="col col-8">
                             <p>Worawat Chueajedton</p>
                         </div>
+                        <div class="col col-4">
+                            <p>Birthday :</p>
+                        </div>
+                        <div class="col col-8">
+                            <p>12 January 1998</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col col-6">
@@ -30,6 +43,12 @@ import Divider from 'primevue/divider';
                         </div>
                         <div class="col col-8">
                             <p>Aomsin</p>
+                        </div>
+                        <div class="col col-4">
+                            <p>Age :</p>
+                        </div>
+                        <div class="col col-8">
+                            <p>{{getAge()}}</p>
                         </div>
                     </div>
                 </div>
