@@ -12,8 +12,8 @@ import Divider from 'primevue/divider';
             <span><i class="pi pi-th-large" style="font-size: 1em"></i> Skill</span>
             <Divider />
         </div>
-        <div class="language-content">
-            <div class="sub-header text-left">
+        <div class="language-content mt-0">
+            <div class="sub-header text-left mt-0">
                 <span>Language</span>
             </div>
             <div class="row container-fluid">
@@ -111,7 +111,7 @@ import Divider from 'primevue/divider';
 }
 .header{
     font-size: 40px;
-    margin:  20px 0 20px 0;
+    margin:  20px 0 0 0;
 }
 .message{
     font-size: 20px;

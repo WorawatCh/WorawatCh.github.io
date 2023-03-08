@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import About from '../components/About.vue'
 import Skill from '../components/Skill.vue'
 import Personal from '../components/Personal.vue'
+import Experience from '../components/Experience.vue'
 import SpeedDial from 'primevue/speeddial';
 
 const items = ref( [
@@ -49,6 +50,7 @@ const items = ref( [
       <About />
       <Personal />
       <Skill />
+      <Experience />
       <!-- <SpeedDial :model="items" direction="up"  :transitionDelay="80" showIcon="pi pi-bars" hideIcon="pi pi-times" buttonClass="p-button-outlined" class="speeddial-right"  :tooltipOptions="{position: 'left'}" /> -->
     <!-- </div> -->
 </template>

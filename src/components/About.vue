@@ -14,7 +14,7 @@ import Divider from 'primevue/divider';
         </div>
             <div class="row">
                 <div class="col col-md-12 col-lg-3 profile-image">
-                    <img src="../../src/assets/img/profile.jpeg" class="img-fluid rounded-circle mx-auto d-block" alt="Responsive image">
+                    <img src="../../src/assets/img/profile.jpeg" class="img-fluid rounded-circle mx-auto d-block" alt="Avatar" style="width:200px">
                 </div>
                 <div class="col col-md-12 col-lg-9">
                     <p class="message text-center">
@@ -36,6 +36,7 @@ import Divider from 'primevue/divider';
     height: auto;
     box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     margin:  15px 0 15px 0;
+    border-radius: 50%;
 }
 .profile-card{
     margin: 15px;
