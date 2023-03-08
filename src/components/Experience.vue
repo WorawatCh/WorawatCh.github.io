@@ -101,7 +101,6 @@ import Divider from 'primevue/divider';
 .img-fluid{
     max-width: 100%;
     height: auto;
-    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     margin:  15px 0 15px 0;
 }
 .profile-card{
