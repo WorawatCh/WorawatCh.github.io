@@ -10,60 +10,66 @@ import Contact from '../components/Contact.vue'
 
 const items = ref( [
     {
-        label: 'Add',
-        icon: 'pi pi-pencil',
+        label: 'Contact',
+        icon: 'pi pi-info-circle',
         command: () => {
-            this.$toast.add({ severity: 'info', summary: 'Add', detail: 'Data Added' });
+            const element = document.getElementById('contact');
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     },
     {
-        label: 'Update',
-        icon: 'pi pi-refresh',
+        label: 'Experience',
+        icon: 'pi pi-book',
         command: () => {
-            this.$toast.add({ severity: 'success', summary: 'Update', detail: 'Data Updated' });
+            const element = document.getElementById('experience');
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     },
     {
-        label: 'Delete',
-        icon: 'pi pi-trash',
+        label: 'Skill',
+        icon: 'pi pi-th-large',
         command: () => {
-            this.$toast.add({ severity: 'error', summary: 'Delete', detail: 'Data Deleted' });
+            const element = document.getElementById('skill');
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     },
     {
-        label: 'Upload',
-        icon: 'pi pi-upload',
+        label: 'Personal Information',
+        icon: 'pi pi-file',
         command: () => {
-            this.$router.push('fileupload');
+            const element = document.getElementById('personal');
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     },
     {
-        label: 'Vue Website',
+        label: 'About',
         icon: 'pi pi-external-link',
         command: () => {
-            window.location.href = 'https://vuejs.org/'
+            const element = document.getElementById('about');
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     }
 ])
 </script>
 
 <template>
-    <!-- <div class="speeddial-tooltip-demo" > -->
-      <About />
-      <Personal />
-      <Skill />
-      <Experience />
-      <Contact />
-      <!-- <SpeedDial :model="items" direction="up"  :transitionDelay="80" showIcon="pi pi-bars" hideIcon="pi pi-times" buttonClass="p-button-outlined" class="speeddial-right"  :tooltipOptions="{position: 'left'}" /> -->
-    <!-- </div> -->
+    <div class="speeddial-tooltip-demo" >
+      <About id="about"/>
+      <Personal id="personal"/>
+      <Skill id="skill"/>
+      <Experience id="experience"/>
+      <Contact id="contact"/>
+      <SpeedDial :model="items" direction="up" style="position: fixed" :transitionDelay="80" showIcon="pi pi-bars" hideIcon="pi pi-times" buttonClass="p-button-outlined" class="speeddial-right"  :tooltipOptions="{position: 'left'}" />
+    </div>
 </template>
 <style scoped>
 .speeddial-tooltip-demo::v-deep(.p-speeddial-direction-up.speeddial-right) {
   right: 20px;
-  bottom: 0;
+  bottom: 20px;
 }
-.speeddial-tooltip-demo{
+/* .speeddial-tooltip-demo{
   position: relative; 
   height: calc(100vh - 100px);
-}
+  z-index:100;
+} */
 </style>

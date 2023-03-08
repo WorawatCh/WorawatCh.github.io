@@ -21,7 +21,7 @@ function handleClick(name){
 <template>
     <div class="profile-card  mx-auto">
         <div class="header text-center">
-            <span><i class="pi pi-user" style="font-size: 1em"></i> Contact</span>
+            <span><i class="pi pi-info-circle" style="font-size: 1em"></i> Contact</span>
             <Divider />
         </div>
             <div class="row content text-center">
