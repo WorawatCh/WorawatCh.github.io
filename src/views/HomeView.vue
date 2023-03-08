@@ -43,7 +43,7 @@ const items = ref( [
     },
     {
         label: 'About',
-        icon: 'pi pi-external-link',
+        icon: 'pi pi-user',
         command: () => {
             const element = document.getElementById('about');
             element.scrollIntoView({ behavior: 'smooth' });

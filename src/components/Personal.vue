@@ -20,44 +20,46 @@ function getAge(){
             <Divider />
         </div>
             <div class="row content text-center">
-                <div class="col col-12 col-sm-6 col-lg-6">
+                <div class="col col-12 ">
                     <div class="row">
-                        <div class="col col-lg-4 col-sm-6 col-12 ">
+                        <div class="col col-lg-3 col-sm-6 col-12 ">
                             <p><b>Name</b> :</p>
                         </div>
-                        <div class="col col-lg-8 col-sm-6 col-12">
+                        <div class="col col-lg-3 col-sm-6 col-12">
                             <p>Worawat Chueajedton</p>
                         </div>
-                        <div class="col col-lg-4 col-sm-6 col-12">
+                        <div class="col col-lg-3 col-sm-6 col-12">
+                            <p><b>Nick Name</b> :</p>
+                        </div>
+                        <div class="col col-lg-3 col-sm-6 col-12">
+                            <p>Aomsin</p>
+                        </div>
+                        <div class="col col-lg-3 col-sm-6 col-12">
                             <p><b>Birthday</b> :</p>
                         </div>
-                        <div class="col col-lg-8 col-sm-6 col-12">
+                        <div class="col col-lg-3 col-sm-6 col-12">
                             <p>12 January 1998</p>
                         </div>
-                        <div class="col col-lg-4 col-sm-6 col-12">
+                        <div class="col col-lg-3 col-sm-6 col-12">
+                            <p><b>Age</b> :</p>
+                        </div>
+                        <div class="col col-lg-3 col-sm-6 col-12">
+                            <p>{{getAge()}}</p>
+                        </div>
+                        <div class="col col-lg-3 col-sm-6 col-12">
                             <p><b>Education</b> :</p>
                         </div>
-                        <div class="col col-lg-8 col-sm-6 col-12">
+                        <div class="col col-lg-9 col-sm-6 col-12">
                             <p>Bachelor degree in department of Software engineer, Engineering faculty, KASETSART University</p>
                         </div>
                     </div>
                 </div>
-                <div class="col col-12 col-sm-6 col-lg-6">
+                <!-- <div class="col col-12 col-sm-6 col-lg-6">
                     <div class="row">
-                        <div class="col col-lg-4 col-sm-6 col-12">
-                            <p><b>Nick Name</b> :</p>
-                        </div>
-                        <div class="col col-lg-8 col-sm-6 col-12">
-                            <p>Aomsin</p>
-                        </div>
-                        <div class="col col-lg-4 col-sm-6 col-12">
-                            <p><b>Age</b> :</p>
-                        </div>
-                        <div class="col col-lg-8 col-sm-6 col-12">
-                            <p>{{getAge()}}</p>
-                        </div>
+                        
+                       
                     </div>
-                </div>
+                </div> -->
             </div>
     </div>
 </template>
