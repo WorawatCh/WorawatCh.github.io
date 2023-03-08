@@ -7,7 +7,11 @@
 
   font-weight: normal;
 } */
-
+@font-face {
+  font-family: "Static";
+  src: local("Static"),
+   url(./font/Static-Regular.ttf) format("truetype");
+}
 .p-divider.p-divider-horizontal:before {
     border-top: 1px solid #dee2e6 !important;
 }

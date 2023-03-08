@@ -67,9 +67,7 @@ const items = ref( [
   right: 20px;
   bottom: 20px;
 }
-/* .speeddial-tooltip-demo{
-  position: relative; 
-  height: calc(100vh - 100px);
-  z-index:100;
-} */
+.speeddial-tooltip-demo{
+    font-family: "Static", Helvetica, Arial;
+}
 </style>

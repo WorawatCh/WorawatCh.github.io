@@ -8,9 +8,11 @@ import PrimeVue from 'primevue/config';
 import './assets/main.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
+import ToastService from 'primevue/toastservice';
 
 const app = createApp(App)
 
 app.use(router)
 app.use(PrimeVue);
+app.use(ToastService);
 app.mount('#app')

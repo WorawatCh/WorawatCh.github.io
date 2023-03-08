@@ -4,6 +4,10 @@ import Carousel from 'primevue/carousel';
 import Card from 'primevue/card';
 import Button from 'primevue/button';
 import Divider from 'primevue/divider';
+import Toast from 'primevue/toast';
+import { useToast } from "primevue/usetoast";
+
+const toast = useToast();
 
 function handleClick(name){
     if(name == 'Resume'){
@@ -16,10 +20,17 @@ function handleClick(name){
         window.open("https://www.instagram.com/it_7a.m/");
     }
 }
+
+function onCopyToClipboard(name){
+    var copyText = document.getElementById(name);
+    navigator.clipboard.writeText(copyText.textContent || copyText.innerText);
+    toast.add({severity:'success', summary: 'Copied', life: 3000});
+}
 </script>
 
 <template>
     <div class="profile-card  mx-auto">
+        <Toast />
         <div class="header text-center">
             <span><i class="pi pi-info-circle" style="font-size: 1em"></i> Contact</span>
             <Divider />
@@ -28,10 +39,10 @@ function handleClick(name){
                 <div class="col col-12 ">
                     <div class="row">
                         <div class="col col-12 col-md-6 btn">
-                            <Button label="082-3998576" class="p-button-outlined p-button-success p-button-lg" />
+                            <Button label="082-3998576" id="tel" class="p-button-outlined p-button-success p-button-lg font" @click="onCopyToClipboard('tel')"/>
                         </div>
                         <div class="col col-12 col-md-6 btn">
-                            <Button label="worawat.chu@ku.th" class="p-button-outlined p-button-success p-button-lg" />
+                            <Button label="worawat.chu@ku.th" id="email" class="p-button-outlined p-button-success p-button-lg font"  @click="onCopyToClipboard('email')"/>
                         </div>
                         <div class="col col-md-3 col-12 col-sm-6 btn">
                             <div class="template">
@@ -95,6 +106,9 @@ function handleClick(name){
 .btn{
     margin: 10px 0;
 }
+.font{
+    font-family: "Static", Helvetica, Arial;
+}
 .template .p-button i {
     line-height: 2.25rem;
 }
@@ -105,6 +119,7 @@ function handleClick(name){
     transition: background-position 0.5s ease-out;
     color: #000;
     border-color: var(--green-300);
+    font-family: "Static", Helvetica, Arial;
 }
 .template .p-button.contact:hover {
     background-position: left bottom;

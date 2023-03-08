@@ -34,6 +34,12 @@ function getAge(){
                         <div class="col col-lg-8 col-sm-6 col-12">
                             <p>12 January 1998</p>
                         </div>
+                        <div class="col col-lg-4 col-sm-6 col-12">
+                            <p><b>Education</b> :</p>
+                        </div>
+                        <div class="col col-lg-8 col-sm-6 col-12">
+                            <p>Bachelor degree in department of Software engineer, Engineering faculty, KASETSART University</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-6">
@@ -68,6 +74,7 @@ function getAge(){
     border-radius: 10px;
     box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) ;
     max-width: 1200px;
+    
 }
 .header{
     font-size: 40px;
