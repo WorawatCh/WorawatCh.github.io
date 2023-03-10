@@ -17,27 +17,27 @@ import Divider from 'primevue/divider';
                 <span>Language</span>
             </div>
             <div class="row container-fluid">
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/html.png" class="img-fluid " alt="Responsive image">
                     <p class="">Html</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
-                    <img src="../../src/assets/img/css.png" class="img-fluid  " alt="Responsive image" style="width: 22%">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
+                    <img src="../../src/assets/img/css.png" class="img-fluid " alt="Responsive image">
                     <p class="">Css</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/js.png" class="img-fluid  " alt="Responsive image">
                     <p class="">Javascript</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/ts.png" class="img-fluid  " alt="Responsive image">
                     <p class="">TYpescript</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/java.png" class="img-fluid  " alt="Responsive image">
                     <p class="">Java</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/python.png" class="img-fluid  " alt="Responsive image">
                     <p class="">Python</p>
                 </div>
@@ -48,15 +48,15 @@ import Divider from 'primevue/divider';
                 <span>Frontend Framework</span>
             </div>
             <div class="row container-fluid">
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/angular.png" class="img-fluid " alt="Responsive image">
                     <p class="">Angular</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/vue.png" class="img-fluid  " alt="Responsive image">
                     <p class="">Vue</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/react.png" class="img-fluid  " alt="Responsive image">
                     <p class="">React</p>
                 </div>
@@ -67,15 +67,15 @@ import Divider from 'primevue/divider';
                 <span>Versin Control</span>
             </div>
             <div class="row container-fluid">
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/github.png" class="img-fluid " alt="Responsive image">
                     <p class="">Github</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/gitlab.png" class="img-fluid  " alt="Responsive image">
                     <p class="">Git Lab</p>
                 </div>
-                <div class="col col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+                <div class="col col-lg-4 col-md-4 col-sm-4 col-4 text-center">
                     <img src="../../src/assets/img/bitbucket.png" class="img-fluid  " alt="Responsive image">
                     <p class="">Bitbucket</p>
                 </div>
@@ -101,7 +101,7 @@ import Divider from 'primevue/divider';
     max-width: 100%;
     height: auto;
     margin:  15px 0 15px 0;
-    width: 100px;
+    width: 80px;
 }
 .profile-card{
     border: 2px solid #4CBB17;

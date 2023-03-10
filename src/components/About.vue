@@ -14,7 +14,7 @@ import Divider from 'primevue/divider';
         </div>
             <div class="row">
                 <div class="col col-md-12 col-lg-3 profile-image">
-                    <img src="../../src/assets/img/profile.jpeg" class="img-fluid rounded-circle mx-auto d-block" alt="Avatar" style="width:200px">
+                    <img src="../../src/assets/img/profile.jpg" class="img-fluid rounded-circle mx-auto d-block" alt="Avatar" style="width:200px">
                 </div>
                 <div class="col col-md-12 col-lg-9">
                     <p class="message text-center">
