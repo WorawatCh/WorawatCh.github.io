@@ -9,9 +9,13 @@ import './assets/main.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 import ToastService from 'primevue/toastservice';
+import ScrollAnimation from './directives/scrollanimation'
+import VueAnimateOnScroll from 'vue3-animate-onscroll';
+import 'animate.css';
 
 const app = createApp(App)
-
+app.directive('scrollanimation', ScrollAnimation);
+app.use(VueAnimateOnScroll);
 app.use(router)
 app.use(PrimeVue);
 app.use(ToastService);

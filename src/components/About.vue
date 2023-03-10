@@ -45,7 +45,6 @@ import Divider from 'primevue/divider';
 }
 .message{
     font-size: 20px;
+    margin: 30px;
 }
-/* .profile-image{
-} */
 </style>

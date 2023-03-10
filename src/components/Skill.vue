@@ -7,7 +7,7 @@ import Divider from 'primevue/divider';
 </script>
 
 <template>
-    <div class="profile-card  mx-auto">
+    <div class="profile-card  mx-auto" >
         <div class="header text-center">
             <span><i class="pi pi-th-large" style="font-size: 1em"></i> Skill</span>
             <Divider />
@@ -92,8 +92,6 @@ import Divider from 'primevue/divider';
                 </div>
             </div>
         </div>
-        
-        
     </div>
 </template>
 <style scoped>
@@ -117,6 +115,4 @@ import Divider from 'primevue/divider';
 .language-content,.framework-content,.devtool-content,.versionControl-content{
     margin: 0 50px;
 }
-/* .profile-image{
-} */
 </style>

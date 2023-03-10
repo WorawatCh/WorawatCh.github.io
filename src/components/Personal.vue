@@ -54,12 +54,6 @@ function getAge(){
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col col-12 col-sm-6 col-lg-6">
-                    <div class="row">
-                        
-                       
-                    </div>
-                </div> -->
             </div>
     </div>
 </template>
@@ -79,6 +73,4 @@ function getAge(){
     margin: 0 20px;
     font-size: 20px;
 }
-/* .profile-image{
-} */
 </style>
