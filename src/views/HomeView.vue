@@ -13,7 +13,7 @@ const items = ref( [
         icon: 'pi pi-info-circle',
         command: () => {
             const element = document.getElementById('contact');
-            element.scrollIntoView({ behavior: 'smooth' });
+            element.scrollIntoView({ behavior: 'smooth', });
         }
     },
     {

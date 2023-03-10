@@ -27,7 +27,7 @@ function getVerticalScrollPercentage( elm ){
         <img src="../assets/img/window.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Worawat
       </span>
-      <Knob v-model="pos" :size="60" style="margin: 0 20px"/>
+      <Knob v-model="pos" :size="65" style="margin: 0 20px"/>
     </nav>
   </div>
 </template>

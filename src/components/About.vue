@@ -13,10 +13,10 @@ import Divider from 'primevue/divider';
             <Divider />
         </div>
             <div class="row">
-                <div class="col col-md-12 col-lg-3 profile-image">
+                <div class="col col-12 col-lg-3 profile-image">
                     <img src="../../src/assets/img/profile.jpg" class="img-fluid rounded-circle mx-auto d-block" alt="Avatar" style="width:200px">
                 </div>
-                <div class="col col-md-12 col-lg-9">
+                <div class="col col-12 col-lg-9">
                     <p class="message text-center">
                         I am frontend software developer.
                         Who has pleasant personality,
