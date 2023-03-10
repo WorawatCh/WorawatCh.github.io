@@ -70,14 +70,7 @@ function getAge(){
     box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     margin:  15px 0 15px 0;
 }
-.profile-card{
-    margin: 15px;
-    border: 2px solid #4CBB17;
-    border-radius: 10px;
-    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) ;
-    max-width: 1200px;
-    
-}
+
 .header{
     font-size: 40px;
     margin:  20px 0 20px 0;

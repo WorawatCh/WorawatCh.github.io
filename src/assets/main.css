@@ -13,16 +13,28 @@
    url(./font/Static-Regular.ttf) format("truetype");
 }
 .p-divider.p-divider-horizontal:before {
-    border-top: 1px solid #dee2e6 !important;
+    border-top: 1px solid #69FFA3  !important;
 }
 .btn:first-child:active,:not(.btn-check)+.btn:active {
   border-color: transparent !important;
+}
+.profile-card{
+  margin: 15px !important;
+  border: 2px solid #69FFA3   !important;
+  border-radius: 10px !important;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  max-width: 1500px !important;
+  background-color: white;
 }
 a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
+}
+body{
+  background-color: #E7FFEE !important;
+  /* overflow:auto !important; */
 }
 
 @media (hover: hover) {

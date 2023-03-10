@@ -100,14 +100,8 @@ import Divider from 'primevue/divider';
 .img-fluid{
     max-width: 100%;
     height: auto;
-    margin:  15px 0 15px 0;
+    margin:  15px 0 ;
     width: 80px;
-}
-.profile-card{
-    border: 2px solid #4CBB17;
-    border-radius: 10px;
-    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) ;
-    max-width: 1200px;
 }
 .header{
     font-size: 40px;
@@ -121,7 +115,7 @@ import Divider from 'primevue/divider';
     margin:  20px 0 20px 0;
 }
 .language-content,.framework-content,.devtool-content,.versionControl-content{
-    margin: 0 20px;
+    margin: 0 50px;
 }
 /* .profile-image{
 } */

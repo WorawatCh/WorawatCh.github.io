@@ -18,7 +18,7 @@ import Divider from 'primevue/divider';
             </div>
             <div class="row">
                 <div class="col col-md-12 col-lg-3 profile-image">
-                    <img src="../../src/assets/img/technobrave.png" class="img-fluid  mx-auto d-block" alt="Avatar" style="width:200px">
+                    <img src="../../src/assets/img/technobrave.png" class="img-fluid  mx-auto d-block" alt="Avatar" >
                 </div>
                 <div class="col col-md-12 col-lg-9">
                     <div class="row">
@@ -38,7 +38,7 @@ import Divider from 'primevue/divider';
             </div>
             <div class="row">
                 <div class="col col-md-12 col-lg-3 profile-image">
-                    <img src="../../src/assets/img/kookmin.png" class="img-fluid  mx-auto d-block" alt="Avatar" style="width:200px">
+                    <img src="../../src/assets/img/kookmin.png" class="img-fluid  mx-auto d-block" alt="Avatar" >
                 </div>
                 <div class="col col-md-12 col-lg-9">
                     <div class="row">
@@ -59,7 +59,7 @@ import Divider from 'primevue/divider';
             </div>
             <div class="row">
                 <div class="col col-md-12 col-lg-3 profile-image">
-                    <img src="../../src/assets/img/tangerine.png" class="img-fluid  mx-auto d-block" alt="Avatar" style="width:200px">
+                    <img src="../../src/assets/img/tangerine.png" class="img-fluid  mx-auto d-block" alt="Avatar" >
                 </div>
                 <div class="col col-md-12 col-lg-9">
                     <div class="row">
@@ -80,7 +80,7 @@ import Divider from 'primevue/divider';
             </div>
             <div class="row">
                 <div class="col col-md-12 col-lg-3 profile-image">
-                    <img src="../../src/assets/img/isc.png" class="img-fluid  mx-auto d-block" alt="Avatar" style="width:200px">
+                    <img src="../../src/assets/img/isc.png" class="img-fluid  mx-auto d-block" alt="Avatar" >
                 </div>
                 <div class="col col-md-12 col-lg-9">
                     <div class="row">
@@ -99,16 +99,10 @@ import Divider from 'primevue/divider';
 </template>
 <style scoped>
 .img-fluid{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     margin:  15px 0 15px 0;
-}
-.profile-card{
-    margin: 15px;
-    border: 2px solid #4CBB17;
-    border-radius: 10px;
-    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) ;
-    max-width: 1200px;
+    width: 150px
 }
 .header{
     font-size: 40px;
@@ -126,7 +120,7 @@ import Divider from 'primevue/divider';
     margin:  20px 0 20px 0;
 }
 .content{
-    margin: 0 20px;
+    margin: 0 50px;
 }
 .context{
     font-size: 20px;
