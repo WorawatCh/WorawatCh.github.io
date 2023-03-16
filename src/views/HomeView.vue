@@ -13,7 +13,8 @@ const items = ref( [
         icon: 'pi pi-info-circle',
         command: () => {
             const element = document.getElementById('contact');
-            element.scrollIntoView({ behavior: 'smooth', });
+            const y = element.getBoundingClientRect().top + window.pageYOffset - 90
+            window.scrollTo({top:y, behavior: 'smooth' });
         }
     },
     {
@@ -21,7 +22,8 @@ const items = ref( [
         icon: 'pi pi-book',
         command: () => {
             const element = document.getElementById('experience');
-            element.scrollIntoView({ behavior: 'smooth' });
+            const y = element.getBoundingClientRect().top + window.pageYOffset - 90
+            window.scrollTo({top:y, behavior: 'smooth' });
         }
     },
     {
@@ -29,7 +31,8 @@ const items = ref( [
         icon: 'pi pi-th-large',
         command: () => {
             const element = document.getElementById('skill');
-            element.scrollIntoView({ behavior: 'smooth' });
+            const y = element.getBoundingClientRect().top + window.pageYOffset - 90
+            window.scrollTo({top:y, behavior: 'smooth' });
         }
     },
     {
@@ -37,7 +40,8 @@ const items = ref( [
         icon: 'pi pi-file',
         command: () => {
             const element = document.getElementById('personal');
-            element.scrollIntoView({ behavior: 'smooth' });
+            const y = element.getBoundingClientRect().top + window.pageYOffset - 90
+            window.scrollTo({top:y, behavior: 'smooth' });
         }
     },
     {
@@ -45,7 +49,8 @@ const items = ref( [
         icon: 'pi pi-user',
         command: () => {
             const element = document.getElementById('about');
-            element.scrollIntoView({ behavior: 'smooth' });
+            const y = element.getBoundingClientRect().top + window.pageYOffset - 90
+            window.scrollTo({top:y, behavior: 'smooth' });
         }
     }
 ])
